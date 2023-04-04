@@ -32,6 +32,8 @@ export const handler = async (event) => {
         },
         body: JSON.stringify(responseBody)
     };
-    console.log("response: " + JSON.stringify(response));
     return response;
 };
+
+//for local testing in Node.js
+//console.log(await handler({ "queryStringParameters": {"url": "www.google.com,www.github.com"}}))
