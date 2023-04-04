@@ -1,0 +1,14 @@
+{
+  "name": "sslcheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ssl-checker": "^2.0.8"
+  }
+}
